@@ -1,3 +1,3 @@
-# -Crime-Media-and-Morality
+# Crime-Media-and-Morality
 
 introduction
