@@ -1,42 +1,36 @@
-/* Example styles.css */
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Makes sure the layout fills the entire viewport */
 }
 
-header {
+header, footer {
     background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-header nav ul li a {
     color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+nav a {
+    margin: 0 10px;
     text-decoration: none;
+    color: #007BFF;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
+    flex: 1; /* Ensures the main content takes up remaining space, pushing the footer down */
     padding: 20px;
-}
-
-footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 100%;
 }
