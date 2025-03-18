@@ -3,95 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Media's Impact</title>
     <style>
+        /* General styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
         }
+
+        /* Header & Footer */
         header, footer {
-            background-color: #333;
+            background-color: #4C567C;
             color: white;
             text-align: center;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        nav {
-            text-align: center;
-        }
-        nav ul {
-            list-style: none;
-            padding: 0;
+
+        header h1 {
+            font-size: 2.5rem;
             margin: 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
             display: flex;
             justify-content: center;
+            background-color: #4C567C;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 0.5rem 0;
         }
-        nav li {
-            margin: 0 10px;
-        }
+
         nav a {
+            margin: 0 15px;
             text-decoration: none;
-            color: #007BFF;
+            font-size: 1rem;
+            color: white;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s, color 0.3s;
         }
+
         nav a:hover {
-            text-decoration: underline;
+            background-color: #FF6F61;
+            color: white;
+            border-radius: 5px;
         }
+
+        /* Main Content */
         main {
-            flex: 1; /* Pushes the footer to the bottom */
-            padding: 20px;
-        }
-        section {
+            flex: 1;
+            padding: 30px;
             text-align: center;
+        }
+
+        main h2, h3 {
+            color: #4C567C;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 20px;
+        }
+
+        h3 {
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="selena.html">Selena</a></li>
-                <li><a href="luigi.html">Luigi</a></li>
-                <li><a href="media.html">Media</a></li>
-            </ul>
-        </nav>
+        <h1>Media's Impact</h1>
     </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="selena.html">Selena</a>
+        <a href="luigi.html">Luigi</a>
+        <a href="media.html">Media</a>
+    </nav>
     <main>
-        <section id="Media">
-            <h2>Media's Impact</h2>
-            <p>The Media's Role in Shaping Crime Narratives: Who Becomes the Story?</p>
-            <p>
-                In the age of endless streaming documentaries, viral TikTok movements, and sensationalized news coverage, 
-                the way we consume crime has fundamentally changed. The media plays a crucial role in shaping public perception, 
-                often determining who is the focal point of a case—whether it’s the victim, the perpetrator, or the broader narrative 
-                surrounding the crime. This evolution raises ethical concerns about storytelling, justice, and accountability.
-            </p>
-            <h3>Who the Media Chooses to Focus On</h3>
-            <p>
-                The case of Selena Quintanilla contrasted with that of Brian Thompson highlights media bias. 
-                In Selena’s story, the victim was celebrated; in Thompson’s case, the alleged perpetrator, Luigi Mangione, 
-                has taken the spotlight, leaving the victim overshadowed. Such disparities shape how society remembers crime.
-            </p>
-            <h3>The Morality of Crime Storytelling</h3>
-            <p>
-                True crime's popularity has blurred lines between awareness and sensationalism. While some cases 
-                garner compassion for victims, others become more about the accused's narrative. This shift raises questions about 
-                justice and the ethics of storytelling, amplified by social media's influence.
-            </p>
-            <h3>Final Thoughts</h3>
-            <p>
-                The contrast between these cases showcases how media determines whose story gets told and remembered. 
-                As consumers of true crime, we must reflect on whether we’re consuming responsibly or contributing to imbalances 
-                in public perception.
-            </p>
-        </section>
+        <h2>The Media's Role in Shaping Crime Narratives</h2>
+        <p>Who Becomes the Story?</p>
+        <h3>Who the Media Chooses to Focus On</h3>
+        <p>
+            The contrast between Selena Quintanilla’s celebrated victimhood and Luigi Mangione’s controversial spotlight reveals 
+            how media coverage shapes societal memories of crime.
+        </p>
+        <h3>The Morality of Crime Storytelling</h3>
+        <p>
+            Popular true crime has blurred the lines between justice and sensationalism, prompting ethical debates about public 
+            perception and media responsibility.
+        </p>
+        <h3>Final Thoughts</h3>
+        <p>
+            The stories we amplify and the perspectives we neglect have lasting impacts. It’s up to us as consumers to critically 
+            engage with the narratives we choose to support.
+        </p>
     </main>
     <footer>
-        <p>&copy; 2025 Your Website Name</p>
+        <p>&copy; 2025 Senior Project</p>
     </footer>
 </body>
 </html>
