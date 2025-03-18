@@ -7,6 +7,16 @@ body {
     min-height: 100vh; /* Makes sure the layout fills the entire viewport */
 }
 
+    /* Header with Background Image */
+    header {
+        background-image: https://as2.ftcdn.net/v2/jpg/04/06/96/11/1000_F_406961139_IXZDE2N8oMgIeoR4o97mXwZfgk41BZvJ.jpg);
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 1.5rem 0;
+        box-shadow: 0 4
+    }
 header, footer {
     background-color: #333;
     color: white;
