@@ -3,81 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front Page</title>
+    <title>Crime, Media, and Morality</title>
     <style>
         /* General styles */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            background: #f4f6f8;
             color: #333;
         }
 
-        /* Header & Footer */
-        header, footer {
-            background-color: #4C567C;
+        /* Header */
+        header {
+            background-image: url('banner-placeholder.jpg'); /* Replace with an actual image URL */
+            background-size: cover;
+            background-position: center;
             color: white;
             text-align: center;
-            padding: 1.5rem 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 90px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
-            font-size: 2.5rem;
+            font-size: 3.5rem;
             margin: 0;
-        }
-
-        footer p {
-            font-size: 0.9rem;
-            margin: 0;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         /* Navigation Bar */
         nav {
             display: flex;
             justify-content: center;
-            background-color: #4C567C;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 0.5rem 0;
+            background-color: #374785;
+            padding: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            font-size: 1rem;
             color: white;
+            font-size: 1.1rem;
             font-weight: bold;
-            padding: 0.5rem 1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
             transition: background-color 0.3s, color 0.3s;
         }
 
         nav a:hover {
             background-color: #FF6F61;
             color: white;
-            border-radius: 5px;
         }
 
         /* Main Content */
         main {
-            flex: 1;
-            padding: 30px;
-            text-align: center;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         main h2 {
-            font-size: 2rem;
-            color: #4C567C;
+            font-size: 2.5rem;
+            color: #374785;
+            margin-bottom: 20px;
         }
 
         main p {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        /* Image Styling */
+        .content-image {
+            width: 100%;
+            max-width: 700px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #374785;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #FF6F61;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -92,18 +122,35 @@
         <a href="media.html">Media's Impact</a>
     </nav>
     <main>
+        <img src="selena-placeholder.jpg" alt="Selena Quintanilla" class="content-image"> <!-- Replace with an actual image URL -->
         <h2>How Stories Shape Perception</h2>
-        <p>True crime stories have always fascinated people, but how they’re told has changed over time. The way the media reports on crime decides who gets remembered: the victim, the accused, or the larger story behind the case. By looking at the cases of Selena Quintanilla, Brian Thompson, and Luigi Mangione, we can see how public perception is shaped by what the media chooses to focus on.
-
-Selena Quintanilla’s tragic death brought the world together to mourn her talent and impact on Latino culture. Meanwhile, the story of Brian Thompson’s death has become less about him and more about Luigi Mangione, his accused killer. These two cases highlight how media bias and sensationalism can shift the spotlight from the victim to the accused.
-
-From streaming platforms to TikTok debates, crime stories are no longer just about justice—they’re about engagement, views, and clicks. This raises important questions: Why do some victims become icons while others fade into the background? Why does the accused sometimes take center stage? And how does the media’s focus affect the way people think about crime, justice, and morality?
-
-Through these cases, we’ll explore how the media creates heroes, villains, and legends. We’ll also consider the role of social media, streaming platforms, and public opinion in shaping modern crime stories. These questions don’t have simple answers, but they show how powerful storytelling can be—and how it impacts the way we remember history.
+        <p>
+            True crime stories have always fascinated people, but how they’re told has changed over time. 
+            The way the media reports on crime decides who gets remembered: the victim, the accused, 
+            or the larger story behind the case. By looking at the cases of Selena Quintanilla, Brian Thompson, 
+            and Luigi Mangione, we can see how public perception is shaped by what the media chooses to focus on.
+        </p>
+        <p>
+            Selena Quintanilla’s tragic death brought the world together to mourn her talent and impact on Latino culture. 
+            Meanwhile, the story of Brian Thompson’s death has become less about him and more about Luigi Mangione, his 
+            accused killer. These two cases highlight how media bias and sensationalism can shift the spotlight 
+            from the victim to the accused.
+        </p>
+        <img src="media-placeholder.jpg" alt="Media's Impact" class="content-image"> <!-- Replace with an actual image URL -->
+        <p>
+            From streaming platforms to TikTok debates, crime stories are no longer just about justice—they’re about engagement, 
+            views, and clicks. This raises important questions: Why do some victims become icons while others fade into the 
+            background? Why does the accused sometimes take center stage? And how does the media’s focus affect the way people 
+            think about crime, justice, and morality?
+        </p>
+        <p>
+            Through these cases, we’ll explore how the media creates heroes, villains, and legends. We’ll also consider the role 
+            of social media, streaming platforms, and public opinion in shaping modern crime stories. These questions don’t have 
+            simple answers, but they show how powerful storytelling can be—and how it impacts the way we remember history.
         </p>
     </main>
     <footer>
-        <p>&copy; 2025 Senior Project</p>
+        <p>&copy; 2025 Senior Project | Created by <a href="https://github.com">Your Name</a></p>
     </footer>
 </body>
 </html>
